@@ -1,0 +1,6 @@
+times = ('São Paulo', 'Santos', 'Corinthians', 'Flamengo', 'Palmeiras')
+print(times)
+print(times[0:3])
+print(times[-2:])
+print(sorted(times))
+print(f'O corinthians está na {times.index('Corinthians')+1}° posição')
